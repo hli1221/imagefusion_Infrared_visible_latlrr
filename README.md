@@ -1,6 +1,6 @@
 # Infrared and visible image fusion using Latent Low-Rank Representation
 
-In Peer Review(TIP)
+In Peer Review(TCI)
 
 ## Abstract
 
