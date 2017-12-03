@@ -2,6 +2,10 @@
 
 In Peer Review(TCI)
 
+## The framework for fusion method
+![](https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr/blob/master/framework/framework.png)
+
+
 ## Abstract
 
 We propose a novel image fusion method based on latent low-rank representation (LatLRR) which is simple and effective. 
