@@ -37,3 +37,16 @@ Thr Latent LRR method is proposed by Guangcan Liu in 2011.
 "Liu G, Yan S. Latent Low-Rank Representation for subspace segmentation and feature extraction[C] International Conference on Computer Vision. IEEE Computer Society, 2011:1615-1622."
 
 And we just use this method in our paper without change.
+
+
+# Citation
+```
+@misc{li2017IVimagefusion_latentLRR,
+    author = {Hui Li},
+    title = {CODE: Infrared and visible image fusion using Latent Low-Rank Representation},
+    year = {2017},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr}}
+  }
+```
