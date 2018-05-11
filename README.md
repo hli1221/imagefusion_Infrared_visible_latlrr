@@ -2,7 +2,7 @@
 
 [Hui Li, Xiao-Jun Wu. Infrared and visible image fusion using Latent Low-Rank Representation.](https://arxiv.org/abs/1804.08992)
 
-In Peer Review(TCI, IEEE Transactions on Computational Imaging)
+In Peer Review(JVCI, Journal of Visual Communication & Image Representation)
 
 ## The framework for fusion method
 ![](https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr/blob/master/framework/framework.png)
@@ -19,19 +19,13 @@ Then, the low-rank parts are fused by weighted-average strategy, and the salienc
 Finally, the fused image is obtained by combining the fused low-rank part and the fused saliency part. 
 
 
-## Figures
-1 infrared_images ---- infrared and visible imaegs(16) which we used.
-
-2 source_images ------ infrared and visible imaegs(5) which we used.
-
-
 ## Source code
 1 fusion_latlrr.m ----- our method
 
 2 latlent_lrr.m ------- latent low-rank representation method
 
 
-## Latent LRR parts
+## Latent LRR
 Thr Latent LRR method is proposed by Guangcan Liu in 2011.
 
 "Liu G, Yan S. Latent Low-Rank Representation for subspace segmentation and feature extraction[C] International Conference on Computer Vision. IEEE Computer Society, 2011:1615-1622."
