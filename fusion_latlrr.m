@@ -2,19 +2,9 @@
 % for i=1:16
 index = 2;
 
-% path1 = 'img_00000.bmp';
-% path2 = 'img_00001.bmp';
-% fuse_path = 'fused_video_test_latlrr.png';
-
-path1 = ['./source_images/infrared',num2str(index),'.jpg'];
-path2 = ['./source_images/visible',num2str(index),'.jpg'];
+path1 = ['./source_images/IV_images/IR',num2str(index),'.png'];
+path2 = ['./source_images/IV_images/VIS',num2str(index),'.png'];
 fuse_path = ['./fused_images/fused',num2str(index),'_latlrr.png'];
-% fuse_path = ['./fused_images/fused',num2str(index),'_max_latlrr.png'];
-
-% path1 = ['./infrared_images/IR',num2str(index),'.bmp'];
-% path2 = ['./infrared_images/VIS',num2str(index),'.bmp'];
-% % fuse_path = ['./fused_images16/fused',num2str(index),'_latlrr.png'];
-% fuse_path = ['./fused_images16/fused',num2str(index),'_max_latlrr.png'];
 
 image1 = imread(path1);
 image2 = imread(path2);
@@ -64,52 +54,6 @@ figure;imshow(I_saliency1);
 figure;imshow(I_saliency2);
 figure;imshow(F);
 
-
-% imwrite(F,fuse_path,'png');
+imwrite(F,fuse_path,'png');
 % end
 
-
-index = 180;
-
-lrr1 = I_saliency1;
-lrr2 = I_saliency2;
-F_s = F_saliency;
-
-lrr1(index,:) = 1;
-lrr2(index,:) = 1;
-F_s(index,:) = 1;
-
-imwrite(lrr1,'I1_s.png','png');
-imwrite(lrr2,'I2_s.png','png');
-imwrite(F_s,'F_s.png','png');
-
-figure;
-subplot(1,3,1);
-imshow(lrr1);
-xlabel('I1\_s');
-subplot(1,3,2);
-imshow(lrr2);
-xlabel('I2\_s');
-subplot(1,3,3);
-imshow(F_s);
-xlabel('F_s');
-
-l_data1 = I_saliency1(index,:);
-l_data2 = I_saliency2(index,:);
-f_data = l_data1 + l_data2;
-
-figure;
-plot(l_data1,'LineWidth',1.5);
-hold on;
-plot(l_data2,'LineWidth',1.5);
-ylabel('coefficients');
-xlabel('position');
-legend('I1\_s','I2\_s','F\_s');
-print(gcf,'-dpng','l_data_line.png');
-
-figure;
-plot(f_data,'r','LineWidth',1.5);
-ylabel('coefficients');
-xlabel('position');
-legend('F_s');
-print(gcf,'-dpng','f_data_line.png');
