@@ -43,8 +43,6 @@ And we just use this method in our paper without change.
     author = {Hui Li},
     title = {CODE: Infrared and visible image fusion using Latent Low-Rank Representation},
     year = {2017},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr}}
+    note = {\url{https://github.com/exceptionLi/imagefusion_Infrared_visible_latlrr}}
   }
 ```
