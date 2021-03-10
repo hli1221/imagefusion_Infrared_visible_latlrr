@@ -1,7 +1,8 @@
 # Infrared and visible image fusion using Latent Low-Rank Representation
 
-[Hui Li, Xiao-Jun Wu. Infrared and visible image fusion using Latent Low-Rank Representation.](https://arxiv.org/abs/1804.08992)
-
+[Hui Li](https://hli1221.github.io/), Xiao-Jun Wu*  
+Infrared and visible image fusion using Latent Low-Rank Representation.  
+[arXiv](https://arxiv.org/abs/1804.08992)
 
 
 ## Latent Low-Rank Representation
