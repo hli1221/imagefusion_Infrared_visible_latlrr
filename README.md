@@ -31,7 +31,7 @@ Finally, the fused image is obtained by combining the fused low-rank part and th
 
 
 ## Latent LRR
-Thr Latent LRR method is proposed by Guangcan Liu in 2011.
+The Latent LRR method is proposed by Guangcan Liu in 2011.
 
 "Liu G, Yan S. Latent Low-Rank Representation for subspace segmentation and feature extraction[C] International Conference on Computer Vision. IEEE Computer Society, 2011:1615-1622."
 
